@@ -1,0 +1,108 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: sticky;
+    top:0%;
+    cursor: pointer;
+    background-color:#08f6911c;
+    text-align: center;
+    
+    
+}
+.nav-list{
+    width:80%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    float: right;
+    padding-right: 30px;
+    right: 30%;
+
+
+    
+
+}
+.nav-list li{
+    display: flex;
+    
+    padding: 26px 30px;
+    text-align: center;
+    justify-content: center;
+    border: black;
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color:darkgreen;
+    border: rgb(140, 242, 7);
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    right: 56px;
+    text-decoration: underline;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(251, 255, 0);
+    border: rgb(242, 6, 6);
+
+}
+.rightnav{
+    
+    float: left;
+    width: 20%;
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    justify-content: right;
+}
+.logo{
+    width: 7px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    float: left;
+    position: absolute;
+    left: 20px;
+}
+.logo img{
+    width: 66px;
+    justify-content: center;
+    padding-right: 0px;
+    cursor: pointer;
+    padding-top: 0px;
+    position: absolute;
+    top: -34px;
+    right: -111px;
+}
+
+   
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    
+    text-align: justify;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+li{
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
